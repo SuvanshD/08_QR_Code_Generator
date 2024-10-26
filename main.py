@@ -1,8 +1,8 @@
 import pyqrcode
 from pyqrcode import QRCode
 
-link = "https://github.com/SuvanshD"
+link = "https://www.instagram.com/gianapvt/"
 
 url = pyqrcode.create(link)
 
-url.svg("Github.jpg", scale=8)
+url.svg("Github.svg", scale=8)
